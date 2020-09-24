@@ -1,11 +1,13 @@
 <!DOCTYPE html>
  <head>
-     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="main_styles.css">
      <title>Sleep Survey</title>
  </head> 
  <body>
      <h1>Sleep Survey Form</h1>
-     <form class="survey"> 
+    
+     <div class="survey"> 
+        
         <div class="subcont1">
             <label for="name" id="name">Name</label>
             <input type="text" id="text_name" name="name" placeholder="Enter your name" required="">
@@ -60,10 +62,11 @@
             <input type="radio" id="fr4" name="check1" value="fr4">
             <label for="n" id="n">Never</label>
         </div>
-        <div class="button">
-            <button id="submit" class="submit-button" type="submit">Submit</button>
-        </div>
-        </div>
-    </form>
+        <a href="branch.html">
+            <div class="button">
+                <button id="submit" class="submit-button" type="submit">Submit</button>
+            </div>
+        </a>
+   </div> 
  </body>
 </hmtl>
