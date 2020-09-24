@@ -1,0 +1,150 @@
+body {
+    background-image: url("sleep.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    margin: 70px 0px 0px 500px;
+    font-size: 30px;
+    text-shadow: 2px 2px gray;
+}
+
+/* properies of the form tag */
+.survey {
+    position: absolute;
+    height: 1000px;
+    width: 750px;
+    background: rgba(128, 128, 128, 0.2);
+    margin: 140px 0px 0px 290px;
+    border-radius: 4px;
+}
+
+label {
+    display: flex;
+}
+
+.subcont1 {
+    margin: 45px 0px 0px 60px;
+}
+
+/* margin between label and input tags in the first three divs */
+.subcont1 label, .subcont2 label, .subcont3 label {
+    margin-bottom: 0.4em;
+}
+
+#name {
+    color: white;
+    font-size: 18px;
+}
+
+#text_name {
+    width: 600px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.subcont2 {
+    margin: 30px 0px 0px 60px;
+}
+
+#email {
+    color: white;
+    font-size: 18px;
+}
+
+#text_email {
+    width: 600px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.subcont3 {
+    margin: 30px 0px 0px 60px;
+}
+
+#age {
+    color: white;
+    font-size: 18px;
+}
+
+#number_age{
+    width: 600px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.subcont4 {
+    margin: 30px 0px 0px 60px;
+}
+
+.subcont4 p {
+    margin-bottom: 0.4em;
+}
+
+.p_text {
+    color: white;
+    font-size: 18px;
+}
+
+#occupation {
+    width: 608px;
+    height: 38px;
+    border-radius: 7px;
+    background-color: white;
+}
+/* property used to change the font-size of the option tags in dropdown menus */
+#style_option {
+    font-size: 15px;
+}
+
+.subcont5 {
+    margin: 40px 0px 0px 60px;
+}
+
+.subcont5 label {
+    display: inline;
+    color: white;
+}
+
+.subcont6 {
+    margin: 40px 0px 0px 60px;
+}
+
+.subcont6 p {
+    margin-bottom: 0.4em;
+}
+
+#quality {
+    width: 608px;
+    height: 38px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.subcont7 {
+    margin: 45px 0px 0px 60px;
+}
+
+.subcont7 label {
+    display: inline;
+    color: white;
+}
+
+#submit {
+    position: absolute;
+    margin: 70px 0px 0px 77px;
+    width: 80%;
+    height: 5%;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+}
