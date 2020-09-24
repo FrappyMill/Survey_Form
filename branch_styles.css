@@ -1,0 +1,16 @@
+body {
+    background-image: url("sleep.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    margin: 150px 0px 0px 400px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px gray;
+}
